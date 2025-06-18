@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculter</title>
+    <link rel="stylesheet" href="/Js_mastering/calculator/brower/style.css" />
+  </head>
+  <body>
+    <h1>Calculater</h1>
+    <div class="container">
+      <p id="demo">result</p>
+      <br />
+      <button
+        onclick="
+          arr=arr+'1';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        1
+      </button>
+      <button
+        onclick="
+          arr=arr+'2';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        2
+      </button>
+      <button
+        onclick="
+          arr=arr+'+';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        +
+      </button>
+      <button
+        onclick="
+          arr=arr+'3';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        3
+      </button>
+      <button
+        onclick="
+          arr=arr+'4';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        4
+      </button>
+      <button
+        onclick="
+          arr=arr+'-';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        -
+      </button>
+      <button
+        onclick="
+          arr=arr+'5';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        5
+      </button>
+      <button
+        onclick="
+          arr=arr+'6';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        6
+      </button>
+      <button
+        onclick="
+          arr=arr+'*';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        *
+      </button>
+      <button
+        onclick="
+          arr=arr+'7';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        7
+      </button>
+      <button
+        onclick="
+          arr=arr+'8';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        8
+      </button>
+      <button
+        onclick="
+          arr=arr+'/';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        /
+      </button>
+      <button
+        onclick="
+          arr=arr+'9';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        9
+      </button>
+      <button
+        onclick="
+          arr=arr+'0';
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        0
+      </button>
+      <button
+        onclick="
+          arr=`0`;
+          document.getElementById('demo').innerHTML = arr;
+          "
+      >
+        C
+      </button>
+      <button
+        onclick="answer=eval(arr);
+          arr=answer;
+        document.getElementById('demo').innerHTML = arr;
+        "
+      >
+        =
+      </button>
+    </div>
+    <script src="/Js_mastering/calculator/brower/script.js"></script>
+  </body>
+</html>
