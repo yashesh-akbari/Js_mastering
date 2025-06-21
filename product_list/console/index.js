@@ -1,0 +1,16 @@
+let arr=[];
+arr.push(1);
+arr.unshift(0);
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.shift();
+arr.push(1);
+console.log(arr);
+arr=[1,2,4,2,1,5,5,5,6];
+console.log(arr.sort());
+console.log(arr.reverse());
+console.log(arr.filter(val=>val>5));
+console.log(arr.find(val=>val=6?"true":"flaes"));
+console.log(arr.map(val=>val*val));
+console.log(arr.includes(25));
